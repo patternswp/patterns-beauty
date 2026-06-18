@@ -12,10 +12,10 @@
 
 ?>
 <!-- wp:template-part {"slug":"header-absolute","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"single-header", "align":"full"} /-->
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"align":"full","layout":{"type":"constrained"}} -->
 <main class="wp-block-group alignfull">
-	<!-- wp:template-part {"slug":"single-header", "align":"full"} /-->
 	<!-- wp:post-content {"className":"pwp-child-reset","align":"full","layout":{"type":"constrained"}} /-->
 
 </main>

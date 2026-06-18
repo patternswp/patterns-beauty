@@ -31,7 +31,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"}} -->
-<div class="wp-block-group"><!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group"><!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|default"}}} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-7.png" style="width:60px"/></figure>
 <!-- /wp:image -->
 

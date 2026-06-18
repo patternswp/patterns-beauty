@@ -2,7 +2,7 @@
 /**
  * Title: Featured Section 3
  * Slug: patterns-beauty/featured-section-3
- * Categories: featured
+ * Categories: about, featured
  * Description: A collection of various WordPress inbuilt blocks, such as headings, paragraphs, image, groups, and buttons, arranged in different positions to form a complete page layout.
  *
  * @package    Patterns_Beauty
@@ -41,7 +41,7 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}},"spacing":{"blockGap":"5px"}},"textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group has-tertiary-color has-text-color has-link-color">
-						<!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none"} -->
+						<!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}}} -->
 						<figure class="wp-block-image size-full is-resized"><img
 								src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-6.png" style="width:16px" />
 						</figure>
@@ -57,7 +57,7 @@
 
 					<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}},"spacing":{"blockGap":"5px"}},"textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group has-tertiary-color has-text-color has-link-color">
-						<!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none"} -->
+						<!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}}} -->
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-6.png" style="width:16px"/></figure>
 						<!-- /wp:image -->
 
@@ -69,7 +69,7 @@
 
 					<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}},"spacing":{"blockGap":"5px"}},"textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group has-tertiary-color has-text-color has-link-color">
-						<!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none"} -->
+						<!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}}} -->
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-6.png" style="width:16px"/></figure>
 						<!-- /wp:image -->
 

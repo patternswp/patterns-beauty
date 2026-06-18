@@ -2,7 +2,7 @@
 /**
  * Title: Featured Section 5
  * Slug: patterns-beauty/featured-section-5
- * Categories: featured
+ * Categories: services, featured
  * Description: A collection of various WordPress inbuilt blocks, such as headings, paragraphs, image, groups, and buttons, arranged in different positions to form a complete page layout.
  *
  * @package    Patterns_Beauty

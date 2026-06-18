@@ -55,6 +55,49 @@
 					"name": "Accent",
 					"slug": "accent"
 				}
+			],
+			"duotone": [
+				{
+					"colors": ["#000000", "#000000"],
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"colors": ["#fff", "#fff"],
+					"slug": "default",
+					"name": "Default"
+				},
+				{
+					"colors": ["#72448D", "#72448D"],
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"colors": ["#5C3474", "#5C3474"],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"colors": ["#868686", "#868686"],
+					"slug": "tertiary",
+					"name": "Tertiary"
+				},
+				{
+					"colors": ["#E7E7E7", "#E7E7E7"],
+					"slug": "quaternary",
+					"name": "Quaternary"
+				},
+				{
+					"colors": ["#fdf2f5", "#fdf2f5"],
+					"slug": "quinary",
+					"name": "Quinary"
+				},
+
+				{
+					"colors": ["#181818", "#181818"],
+					"slug": "accent",
+					"name": "Accent"
+				}
 			]
 		},
 		"layout": {
@@ -112,80 +155,6 @@
 			"fluid": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "Material Symbols Outlined",
-					"slug": "material-symbols-outlined",
-					"fontFace": [
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_100.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_200.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_400.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_500.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_600.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_700.ttf"
-							]
-						}
-					]
-				},
-				{
-					"fontFamily": "Material Icons",
-					"slug": "material-icons",
-					"fontFace": [
-						{
-							"fontFamily": "Material Icons",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": ["file:./assets/fonts/material-icons_normal_400.ttf"]
-						}
-					]
-				},
-				{
 					"fontFamily": "Playfair Display",
 					"slug": "heading",
 					"fontFace": [
@@ -193,73 +162,97 @@
 							"fontFamily": "Playfair Display",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/playfair-display_normal_400.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-Regular.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "normal",
 							"fontWeight": "500",
-							"src": ["file:./assets/fonts/playfair-display_normal_500.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-Medium.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "normal",
 							"fontWeight": "600",
-							"src": ["file:./assets/fonts/playfair-display_normal_600.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-SemiBold.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "normal",
 							"fontWeight": "700",
-							"src": ["file:./assets/fonts/playfair-display_normal_700.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-Bold.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "normal",
 							"fontWeight": "800",
-							"src": ["file:./assets/fonts/playfair-display_normal_800.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-ExtraBold.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "normal",
 							"fontWeight": "900",
-							"src": ["file:./assets/fonts/playfair-display_normal_900.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-Black.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "italic",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/playfair-display_italic_400.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-Italic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "italic",
 							"fontWeight": "500",
-							"src": ["file:./assets/fonts/playfair-display_italic_500.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-MediumItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "italic",
 							"fontWeight": "600",
-							"src": ["file:./assets/fonts/playfair-display_italic_600.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-SemiBoldItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "italic",
 							"fontWeight": "700",
-							"src": ["file:./assets/fonts/playfair-display_italic_700.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-BoldItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "italic",
 							"fontWeight": "800",
-							"src": ["file:./assets/fonts/playfair-display_italic_800.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-ExtraBoldItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Playfair Display",
 							"fontStyle": "italic",
 							"fontWeight": "900",
-							"src": ["file:./assets/fonts/playfair-display_italic_900.ttf"]
+							"src": [
+								"file:./assets/fonts/playfair-display/PlayfairDisplay-BlackItalic.woff2"
+							]
 						}
 					]
 				},
@@ -271,78 +264,96 @@
 							"fontFamily": "Open Sans",
 							"fontStyle": "normal",
 							"fontWeight": "300",
-							"src": ["file:./assets/fonts/open-sans_normal_300.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-Light.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/open-sans_normal_400.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-Regular.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "normal",
 							"fontWeight": "500",
-							"src": ["file:./assets/fonts/open-sans_normal_500.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-Medium.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "normal",
 							"fontWeight": "600",
-							"src": ["file:./assets/fonts/open-sans_normal_600.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-SemiBold.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "normal",
 							"fontWeight": "700",
-							"src": ["file:./assets/fonts/open-sans_normal_700.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-Bold.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "normal",
 							"fontWeight": "800",
-							"src": ["file:./assets/fonts/open-sans_normal_800.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-ExtraBold.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "italic",
 							"fontWeight": "300",
-							"src": ["file:./assets/fonts/open-sans_italic_300.ttf"]
+							"src": [
+								"file:./assets/fonts/open-sans/OpenSans-LightItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "italic",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/open-sans_italic_400.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-Italic.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "italic",
 							"fontWeight": "500",
-							"src": ["file:./assets/fonts/open-sans_italic_500.ttf"]
+							"src": [
+								"file:./assets/fonts/open-sans/OpenSans-MediumItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "italic",
 							"fontWeight": "600",
-							"src": ["file:./assets/fonts/open-sans_italic_600.ttf"]
+							"src": [
+								"file:./assets/fonts/open-sans/OpenSans-SemiBoldItalic.woff2'"
+							]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "italic",
 							"fontWeight": "700",
-							"src": ["file:./assets/fonts/open-sans_italic_700.ttf"]
+							"src": ["file:./assets/fonts/open-sans/OpenSans-BoldItalic.woff2"]
 						},
 						{
 							"fontFamily": "Open Sans",
 							"fontStyle": "italic",
 							"fontWeight": "800",
-							"src": ["file:./assets/fonts/open-sans_italic_800.ttf"]
+							"src": [
+								"file:./assets/fonts/open-sans/OpenSans-ExtraBoldItalic.woff2"
+							]
 						}
 					]
 				}
 			],
 			"fontSizes": [
+				{
+					"_comment": "The default WordPress CSS variable slug is 'small' and it is generated as '--wp--preset--font-size--x-small' ",
+					"fluid": {
+						"max": "0.875rem",
+						"min": "0.875rem"
+					},
+					"size": "0.875rem",
+					"slug": "x-small",
+					"name": "Extra Small"
+				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'small' and it is generated as '--wp--preset--font-size--small' ",
 					"fluid": {
@@ -350,7 +361,8 @@
 						"min": "0.875rem"
 					},
 					"size": "1rem",
-					"slug": "small"
+					"slug": "small",
+					"name": "Small"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'medium' and it is generated as '--wp--preset--font-size--medium' ",
@@ -359,7 +371,8 @@
 						"min": "1rem"
 					},
 					"size": "1.125rem",
-					"slug": "medium"
+					"slug": "medium",
+					"name": "Medium"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'large' and it is generated as '--wp--preset--font-size--large' ",
@@ -368,7 +381,8 @@
 						"min": "1.75rem"
 					},
 					"size": "1.75rem",
-					"slug": "large"
+					"slug": "large",
+					"name": "Large"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'x-large' and it is generated as '--wp--preset--font-size--x-large' ",
@@ -377,7 +391,8 @@
 						"min": "2rem"
 					},
 					"size": "2.25rem",
-					"slug": "x-large"
+					"slug": "x-large",
+					"name": "Extra Large"
 				},
 				{
 					"_comment": "There isn't a default CSS variable slug in WordPress for 'xx-large,' but it gets generated as '--wp--preset--font-size--xx-large.' ' ",
@@ -386,7 +401,8 @@
 						"min": "2.75rem"
 					},
 					"size": "2.75rem",
-					"slug": "xx-large"
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
 				}
 			]
 		},
@@ -414,7 +430,7 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|base",
-			"fontSize": "14px",
+			"fontSize": "var:preset|font-size|x-small",
 			"lineHeight": "1.4"
 		},
 
@@ -439,14 +455,14 @@
 					"padding": {
 						"_comment": "Sets the default padding value of the <button> element",
 						"bottom": "15px",
-						"left": "30px",
-						"right": "30px",
+						"left": "var:preset|spacing|30",
+						"right": "var:preset|spacing|30",
 						"top": "15px"
 					}
 				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|base",
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "500",
 					"lineHeight": "1.6"
 				}
@@ -536,7 +552,7 @@
 			"core/navigation": {
 				"_comment": "generate custom css for navigation active state",
 				"spacing": {
-					"blockGap": "40px"
+					"blockGap": "var:preset|spacing|40"
 				},
 				"typography": {
 					"fontSize": "0.8rem",
@@ -564,7 +580,7 @@
 						}
 					}
 				},
-				"css": "& .current-menu-item{ color:var(--wp--preset--color--primary);} & .wp-block-navigation__submenu-container .wp-block-pages-list__item__link{ padding:10px;} & .wp-block-navigation__responsive-container.is-menu-open { background-color: var(--wp--preset--color--primary) !important;}"
+				"css": "& .current-menu-item{ color:var(--wp--preset--color--primary);} & .wp-block-navigation__submenu-container .wp-block-pages-list__item__link{ padding:var(--wp--preset--spacing--10);} & .wp-block-navigation__responsive-container.is-menu-open { background-color: var(--wp--preset--color--primary) !important;}"
 			},
 
 			"core/navigation-link": {
@@ -579,7 +595,7 @@
 				}
 			},
 			"core/navigation-submenu": {
-				"css": "& ul li a{padding:10px;}"
+				"css": "& ul li a{padding:var(--wp--preset--spacing--10);}"
 			},
 			"core/button": {
 				"variations": {
@@ -595,8 +611,8 @@
 						"spacing": {
 							"padding": {
 								"bottom": "15px",
-								"left": "30px",
-								"right": "30px",
+								"left": "var:preset|spacing|30",
+								"right": "var:preset|spacing|30",
 								"top": "15px"
 							}
 						}
@@ -638,7 +654,7 @@
 			},
 			"core/code": {
 				"typography": {
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"lineHeight": "1.3"
 				}
 			},
@@ -725,7 +741,7 @@
 					"text": "var:preset|color|tertiary"
 				},
 				"typography": {
-					"fontSize": "14px"
+					"fontSize": "var:preset|font-size|x-small"
 				},
 				"elements": {
 					"link": {
@@ -801,10 +817,10 @@
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "10px",
+								"bottom": "var:preset|spacing|10",
 								"left": "15px",
 								"right": "15px",
-								"top": "10px"
+								"top": "var:preset|spacing|10"
 							},
 							"margin": {
 								"bottom": "2px",
@@ -834,7 +850,7 @@
 						}
 					}
 				},
-				"css": "& .page-numbers:is(.dots, .current){padding:10px 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
+				"css": "& .page-numbers:is(.dots, .current){padding:var(--wp--preset--spacing--10) 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
 			},
 			"core/query-no-results": {
 				"color": {
@@ -842,13 +858,13 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"right": "40px",
-						"bottom": "40px",
-						"left": "40px"
+						"top": "var:preset|spacing|40",
+						"right": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|40",
+						"left": "var:preset|spacing|40"
 					},
 					"margin": {
-						"top": "80px"
+						"top": "var:preset|spacing|80"
 					}
 				},
 				"border": {
@@ -861,11 +877,11 @@
 			"core/comment-template": {
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"bottom": "40px"
+						"top": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|40"
 					},
 					"margin": {
-						"bottom": "30px"
+						"bottom": "var:preset|spacing|30"
 					}
 				}
 			},
@@ -874,7 +890,7 @@
 					"text": "var:preset|color|base"
 				},
 				"typography": {
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "600"
 				},
 				"elements": {
@@ -948,13 +964,13 @@
 			},
 			"core/comment-content": {
 				"typography": {
-					"fontSize": "14px"
+					"fontSize": "var:preset|font-size|x-small"
 				}
 			},
 			"core/post-comments-form": {
 				"spacing": {
 					"padding": {
-						"top": "40px;"
+						"top": "var:preset|spacing|40;"
 					}
 				},
 				"css": "& .comment-form-comment textarea{margin-top:15px;} "
@@ -967,10 +983,10 @@
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "10px",
+								"bottom": "var:preset|spacing|10",
 								"left": "15px",
 								"right": "15px",
-								"top": "10px"
+								"top": "var:preset|spacing|10"
 							},
 							"margin": {
 								"bottom": "2px",
@@ -1000,7 +1016,7 @@
 						}
 					}
 				},
-				"css": "& .page-numbers:is(.dots, .current){padding:10px 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
+				"css": "& .page-numbers:is(.dots, .current){padding:var(--wp--preset--spacing--10) 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
 			},
 			"core/latest-posts": {
 				"color": {
@@ -1021,7 +1037,7 @@
 						}
 					}
 				},
-				"css": "& li {margin-bottom:var(--wp--preset--spacing--20);} & li:last-child{margin-bottom:0;}"
+				"css": "& {overflow:hidden;} & li {margin-bottom:var(--wp--preset--spacing--20);} & li:last-child{margin-bottom:0;}"
 			},
 			"core/latest-comments": {
 				"color": {
@@ -1038,7 +1054,8 @@
 							}
 						}
 					}
-				}
+				},
+				"css": "& {padding-left:0;}"
 			},
 			"core/table": {
 				"_comment": "generate custom css for wp-table",

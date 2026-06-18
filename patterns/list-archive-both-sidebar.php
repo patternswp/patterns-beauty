@@ -12,10 +12,10 @@
 
 ?>
 <!-- wp:template-part {"slug":"header-absolute","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"list-archive-header", "align":"full"} /-->
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"align":"full","layout":{"type":"constrained"}} -->
 <main class="wp-block-group alignfull">
-	<!-- wp:template-part {"slug":"list-archive-header", "align":"full"} /-->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":{"left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">

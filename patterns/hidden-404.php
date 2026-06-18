@@ -19,6 +19,9 @@
 <!-- /wp:cover -->
 
 
+<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"align":"full","layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull">
+
 <!-- wp:group {"align":"full","backgroundColor":"default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-default-background-color has-background"><!-- wp:spacer {"height":"200px"} -->
 <div style="height:200px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -64,4 +67,7 @@
 <!-- wp:spacer {"height":"200px"} -->
 <div style="height:200px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
+<!-- /wp:group -->
+
+</main>
 <!-- /wp:group -->

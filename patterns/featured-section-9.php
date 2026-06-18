@@ -2,7 +2,7 @@
 /**
  * Title: Featured Section 9
  * Slug: patterns-beauty/featured-section-9
- * Categories: featured
+ * Categories: featured, media
  * Description: A collection of various WordPress inbuilt blocks, such as headings, paragraphs, image, groups, and buttons, arranged in different positions to form a complete page layout.
  *
  * @package    Patterns_Beauty
