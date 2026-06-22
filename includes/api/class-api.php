@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Beauty_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Beauty_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-beauty/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Beauty_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 
