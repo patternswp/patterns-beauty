@@ -30,7 +30,7 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:group {"metadata":{"name":"Section title"},"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
-			
+
 				<!-- wp:pattern {"slug":"patterns-beauty/section-title-2"} /-->
 
 				<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
